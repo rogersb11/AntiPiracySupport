@@ -11,7 +11,8 @@ it is going to be maintained here.. but if you fork please be sure to look for u
 COMMITS REQUIRED TO INTEGRATE: <br />
 http://exodus-developers.net:8000/#/c/819/ <br />
 http://exodus-developers.net:8000/#/c/1018/ <br />
-http://exodus-developers.net:8000/#/c/1128/
+http://exodus-developers.net:8000/#/c/1128/ <br />
+http://exodus-developers.net:8000/#/c/1172/
 
 Feel free to message any of the team with questions or comments.
 Thank you for helping to support developers/themers!

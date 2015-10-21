@@ -42,11 +42,11 @@ public class AntiPiracyConstants {
         "com.baseappfull.fwd",                                 // Game Hacker
         "com.zmapp",                                           // Z market
         "com.dv.marketmod.installer",                          // Hacked play store that gives refunds without uninstalling the apk
-        "org.mobilism.android"                                 // Mobilism market
+        "org.mobilism.android",                                // Mobilism market
 
                                          //Anti Malware:
 
-        "com.android.wp.net.log"                                 // Ghost Push Trojan: Timeservice
+        "com.android.wp.net.log",                                // Ghost Push Trojan: Timeservice
         "com.android.camera.update"                              // Ghost Push Trojan infected
 
      };

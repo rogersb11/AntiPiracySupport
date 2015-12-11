@@ -39,12 +39,12 @@ import static org.antipiracy.support.utils.AntiPiracyConstants.*;
  * apps to ROM developers deploying this code.
  * @author github.com/AlmightyMegadeth00 - activethrasher00@gmail.com
  */
-public class AntiPiracyInstallReceiver extends BroadcastReceiver {
+public class AntiPiracyInstallReceivers extends BroadcastReceiver {
     private static final String TAG = "ANTI-PIRACY: Install receiver";
 
     @Override
     public void onReceive(Context ctx, Intent intent) {
-        Intent notifyService = new Intent(ctx, AntiPiracyNotifyService.class);
+        Intent notifyService = new Intent(ctx, AntiPiracyNotifyServices.class);
         if (DEBUG) Log.i(TAG, "install check event");
         boolean displayToast = false;
 
@@ -52,7 +52,7 @@ public class AntiPiracyInstallReceiver extends BroadcastReceiver {
             if (DEBUG) Log.e(TAG, "PACKAGE " + app + " testing for install");
             if (isInstalled(ctx, app)) {
                 Log.i("(╯°□°)╯︵ ┻━┻", "Blacklisted packages found: " + app);
-                if (!isServiceRunning(AntiPiracyNotifyService.class, ctx)) {
+                if (!isServiceRunning(AntiPiracyNotifyServices.class, ctx)) {
                     ctx.startService(notifyService);
                     displayToast = true;
                 }

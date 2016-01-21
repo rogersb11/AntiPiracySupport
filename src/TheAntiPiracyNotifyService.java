@@ -41,7 +41,7 @@ import static org.antipiracy.support.utils.AntiPiracyConstants.*;
  * apps to ROM developers deploying this code.
  * @author github.com/AlmightyMegadeth00 - activethrasher00@gmail.com
  */
-public class AntiPiracyNotifyServices extends Service {
+public class TheAntiPiracyNotifyService extends Service {
     static final String TAG = "ANTI-PIRACY: Notify service";
 
     // Notify service handler
